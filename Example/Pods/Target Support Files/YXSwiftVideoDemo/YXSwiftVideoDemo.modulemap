@@ -1,0 +1,6 @@
+framework module YXSwiftVideoDemo {
+  umbrella header "YXSwiftVideoDemo-umbrella.h"
+
+  export *
+  module * { export * }
+}
