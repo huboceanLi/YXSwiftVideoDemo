@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '10.0'
+
+target 'YXSwiftVideoDemo_Example' do
+  pod 'YXSwiftVideoDemo', :path => '../'
+
+  target 'YXSwiftVideoDemo_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
