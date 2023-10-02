@@ -16,7 +16,30 @@
     "tag": "0.1.0"
   },
   "platforms": {
-    "ios": "10.0"
+    "ios": "12.0"
   },
-  "source_files": "YXSwiftVideoDemo/Classes/**/*"
+  "source_files": "YXSwiftVideoDemo/Classes/**/*",
+  "dependencies": {
+    "QMUIKit": [
+
+    ],
+    "Alamofire": [
+      "4.9.1"
+    ],
+    "HandyJSON": [
+      "5.0.2"
+    ],
+    "SnapKit": [
+      "5.6.0"
+    ],
+    "YYWebImage": [
+
+    ],
+    "Masonry": [
+      "~> 1.1.0"
+    ],
+    "YYModel": [
+
+    ]
+  }
 }

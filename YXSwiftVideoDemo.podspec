@@ -28,7 +28,7 @@ TODO: Add long description of the pod here.
   s.source           = { :git => 'https://github.com/li437277219@gmail.com/YXSwiftVideoDemo.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '10.0'
+  s.ios.deployment_target = '12.0'
 
   s.source_files = 'YXSwiftVideoDemo/Classes/**/*'
   
@@ -39,4 +39,13 @@ TODO: Add long description of the pod here.
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
+  
+  s.dependency "QMUIKit"
+  s.dependency "Alamofire", '4.9.1'
+  s.dependency "HandyJSON", '5.0.2'
+  s.dependency "SnapKit", '5.6.0'
+  s.dependency "YYWebImage"
+  s.dependency "Masonry", '~> 1.1.0'
+  s.dependency "YYModel"
+
 end
