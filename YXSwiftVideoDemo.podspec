@@ -29,7 +29,8 @@ TODO: Add long description of the pod here.
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '12.0'
-
+  s.static_framework = true
+  s.ios.deployment_target = '10.0'
   s.source_files = 'YXSwiftVideoDemo/Classes/**/*'
   
   # s.resource_bundles = {
@@ -47,5 +48,6 @@ TODO: Add long description of the pod here.
   s.dependency "YYWebImage"
   s.dependency "Masonry", '~> 1.1.0'
   s.dependency "YYModel"
+  s.dependency "HYVideoPlay", '~> 0.1.2'
 
 end

@@ -5,9 +5,6 @@ platform :ios, '12.0'
 target 'YXSwiftVideoDemo_Example' do
   pod 'YXSwiftVideoDemo', :path => '../'
 
-  target 'YXSwiftVideoDemo_Tests' do
-    inherit! :search_paths
+#  pod 'HYVideoPlay', '~> 0.1.2'
 
-    
-  end
 end

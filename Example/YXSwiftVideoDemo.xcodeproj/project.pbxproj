@@ -7,13 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		38EF303D1E856F6EAE28F6AC /* Pods_YXSwiftVideoDemo_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1555924F32F980C51A4A611B /* Pods_YXSwiftVideoDemo_Example.framework */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
 		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
 		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
-		9A0AE9262ACACBA000ACCAE1 /* HYVideoPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A0AE9252ACACBA000ACCAE1 /* HYVideoPlayer.framework */; };
-		CA43CA4F7052A6FE3E226365 /* Pods_YXSwiftVideoDemo_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0648AC74EE90112D1AC1A5FB /* Pods_YXSwiftVideoDemo_Example.framework */; };
+		9A7B43F72ACC1C5900EE5DD4 /* HYVideoSDK.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 9A7B43F52ACC1C5900EE5DD4 /* HYVideoSDK.bundle */; };
+		9AF287B32ACBE68A006763DE /* XYSwiftVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A0AE9222ACACB8100ACCAE1 /* XYSwiftVideo.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,11 +28,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0648AC74EE90112D1AC1A5FB /* Pods_YXSwiftVideoDemo_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YXSwiftVideoDemo_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1555924F32F980C51A4A611B /* Pods_YXSwiftVideoDemo_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YXSwiftVideoDemo_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		224E64645760A6B68E26AB99 /* YXSwiftVideoDemo.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = YXSwiftVideoDemo.podspec; path = ../YXSwiftVideoDemo.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		26F4351B7F4D27C81503D874 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		50E849C16DE8CE9ED52EC074 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		5C7E7CACB00C8552CED20241 /* Pods-YXSwiftVideoDemo_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YXSwiftVideoDemo_Tests.release.xcconfig"; path = "Target Support Files/Pods-YXSwiftVideoDemo_Tests/Pods-YXSwiftVideoDemo_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* YXSwiftVideoDemo_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YXSwiftVideoDemo_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -41,10 +41,8 @@
 		607FACDF1AFB9204008FA782 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		65E5386F5B1674BDB77C01E3 /* Pods-YXSwiftVideoDemo_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YXSwiftVideoDemo_Example.release.xcconfig"; path = "Target Support Files/Pods-YXSwiftVideoDemo_Example/Pods-YXSwiftVideoDemo_Example.release.xcconfig"; sourceTree = "<group>"; };
 		9A0AE91D2ACACB8100ACCAE1 /* XYSwiftVideo.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = XYSwiftVideo.xcodeproj; path = ../XYSwiftVideo/XYSwiftVideo.xcodeproj; sourceTree = "<group>"; };
-		9A0AE9252ACACBA000ACCAE1 /* HYVideoPlayer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = HYVideoPlayer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		A60B7FB01EE3952E2EBF2AE1 /* Pods_YXSwiftVideoDemo_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YXSwiftVideoDemo_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A7B43F52ACC1C5900EE5DD4 /* HYVideoSDK.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = HYVideoSDK.bundle; sourceTree = "<group>"; };
 		C865964DE74C8FA4608FA19C /* Pods-YXSwiftVideoDemo_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YXSwiftVideoDemo_Example.debug.xcconfig"; path = "Target Support Files/Pods-YXSwiftVideoDemo_Example/Pods-YXSwiftVideoDemo_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		D630563A0AD80F2EA8FA249C /* Pods-YXSwiftVideoDemo_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YXSwiftVideoDemo_Tests.debug.xcconfig"; path = "Target Support Files/Pods-YXSwiftVideoDemo_Tests/Pods-YXSwiftVideoDemo_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,8 +50,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9A0AE9262ACACBA000ACCAE1 /* HYVideoPlayer.framework in Frameworks */,
-				CA43CA4F7052A6FE3E226365 /* Pods_YXSwiftVideoDemo_Example.framework in Frameworks */,
+				9AF287B32ACBE68A006763DE /* XYSwiftVideo.framework in Frameworks */,
+				38EF303D1E856F6EAE28F6AC /* Pods_YXSwiftVideoDemo_Example.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +81,7 @@
 		607FACD21AFB9204008FA782 /* Example for YXSwiftVideoDemo */ = {
 			isa = PBXGroup;
 			children = (
+				9A7B43F52ACC1C5900EE5DD4 /* HYVideoSDK.bundle */,
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
 				607FACD71AFB9204008FA782 /* ViewController.swift */,
 				607FACD91AFB9204008FA782 /* Main.storyboard */,
@@ -115,9 +114,7 @@
 		6964B50015D20A6347EC8A51 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				9A0AE9252ACACBA000ACCAE1 /* HYVideoPlayer.framework */,
-				0648AC74EE90112D1AC1A5FB /* Pods_YXSwiftVideoDemo_Example.framework */,
-				A60B7FB01EE3952E2EBF2AE1 /* Pods_YXSwiftVideoDemo_Tests.framework */,
+				1555924F32F980C51A4A611B /* Pods_YXSwiftVideoDemo_Example.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -127,8 +124,6 @@
 			children = (
 				C865964DE74C8FA4608FA19C /* Pods-YXSwiftVideoDemo_Example.debug.xcconfig */,
 				65E5386F5B1674BDB77C01E3 /* Pods-YXSwiftVideoDemo_Example.release.xcconfig */,
-				D630563A0AD80F2EA8FA249C /* Pods-YXSwiftVideoDemo_Tests.debug.xcconfig */,
-				5C7E7CACB00C8552CED20241 /* Pods-YXSwiftVideoDemo_Tests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -153,6 +148,7 @@
 				607FACCD1AFB9204008FA782 /* Frameworks */,
 				607FACCE1AFB9204008FA782 /* Resources */,
 				73AC2B2AD0E3371752BCC83C /* [CP] Embed Pods Frameworks */,
+				11F41819B79BB2A2EB9331EE /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -222,12 +218,30 @@
 				607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */,
 				607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */,
 				607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */,
+				9A7B43F72ACC1C5900EE5DD4 /* HYVideoSDK.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		11F41819B79BB2A2EB9331EE /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-YXSwiftVideoDemo_Example/Pods-YXSwiftVideoDemo_Example-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-YXSwiftVideoDemo_Example/Pods-YXSwiftVideoDemo_Example-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-YXSwiftVideoDemo_Example/Pods-YXSwiftVideoDemo_Example-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		73AC2B2AD0E3371752BCC83C /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -406,6 +420,7 @@
 			baseConfigurationReference = C865964DE74C8FA4608FA19C /* Pods-YXSwiftVideoDemo_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = V6VQ8W355L;
 				INFOPLIST_FILE = YXSwiftVideoDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -425,6 +440,7 @@
 			baseConfigurationReference = 65E5386F5B1674BDB77C01E3 /* Pods-YXSwiftVideoDemo_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = V6VQ8W355L;
 				INFOPLIST_FILE = YXSwiftVideoDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
