@@ -48,6 +48,6 @@ TODO: Add long description of the pod here.
   s.dependency "YYWebImage"
   s.dependency "Masonry", '~> 1.1.0'
   s.dependency "YYModel"
-  s.dependency "HYVideoPlay", '~> 0.1.2'
+  s.dependency "HYVideoPlay", '~> 0.1.5'
 
 end

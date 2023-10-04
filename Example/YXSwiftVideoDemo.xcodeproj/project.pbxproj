@@ -14,13 +14,13 @@
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		9A7B43F72ACC1C5900EE5DD4 /* HYVideoSDK.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 9A7B43F52ACC1C5900EE5DD4 /* HYVideoSDK.bundle */; };
-		9AF287B32ACBE68A006763DE /* XYSwiftVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A0AE9222ACACB8100ACCAE1 /* XYSwiftVideo.framework */; };
+		9A7B44212ACDA9C800EE5DD4 /* XYSwiftVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A7B44202ACDA9BE00EE5DD4 /* XYSwiftVideo.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		9A0AE9212ACACB8100ACCAE1 /* PBXContainerItemProxy */ = {
+		9A7B441F2ACDA9BE00EE5DD4 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 9A0AE91D2ACACB8100ACCAE1 /* XYSwiftVideo.xcodeproj */;
+			containerPortal = 9A7B441B2ACDA9BE00EE5DD4 /* XYSwiftVideo.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = 832552C72A97366700BFE696;
 			remoteInfo = XYSwiftVideo;
@@ -40,8 +40,8 @@
 		607FACDC1AFB9204008FA782 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		607FACDF1AFB9204008FA782 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		65E5386F5B1674BDB77C01E3 /* Pods-YXSwiftVideoDemo_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YXSwiftVideoDemo_Example.release.xcconfig"; path = "Target Support Files/Pods-YXSwiftVideoDemo_Example/Pods-YXSwiftVideoDemo_Example.release.xcconfig"; sourceTree = "<group>"; };
-		9A0AE91D2ACACB8100ACCAE1 /* XYSwiftVideo.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = XYSwiftVideo.xcodeproj; path = ../XYSwiftVideo/XYSwiftVideo.xcodeproj; sourceTree = "<group>"; };
 		9A7B43F52ACC1C5900EE5DD4 /* HYVideoSDK.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = HYVideoSDK.bundle; sourceTree = "<group>"; };
+		9A7B441B2ACDA9BE00EE5DD4 /* XYSwiftVideo.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = XYSwiftVideo.xcodeproj; path = ../XYSwiftVideo/XYSwiftVideo.xcodeproj; sourceTree = "<group>"; };
 		C865964DE74C8FA4608FA19C /* Pods-YXSwiftVideoDemo_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YXSwiftVideoDemo_Example.debug.xcconfig"; path = "Target Support Files/Pods-YXSwiftVideoDemo_Example/Pods-YXSwiftVideoDemo_Example.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -50,7 +50,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9AF287B32ACBE68A006763DE /* XYSwiftVideo.framework in Frameworks */,
+				9A7B44212ACDA9C800EE5DD4 /* XYSwiftVideo.framework in Frameworks */,
 				38EF303D1E856F6EAE28F6AC /* Pods_YXSwiftVideoDemo_Example.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -61,7 +61,7 @@
 		607FACC71AFB9204008FA782 = {
 			isa = PBXGroup;
 			children = (
-				9A0AE91D2ACACB8100ACCAE1 /* XYSwiftVideo.xcodeproj */,
+				9A7B441B2ACDA9BE00EE5DD4 /* XYSwiftVideo.xcodeproj */,
 				607FACF51AFB993E008FA782 /* Podspec Metadata */,
 				607FACD21AFB9204008FA782 /* Example for YXSwiftVideoDemo */,
 				607FACD11AFB9204008FA782 /* Products */,
@@ -128,10 +128,10 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
-		9A0AE91E2ACACB8100ACCAE1 /* Products */ = {
+		9A7B441C2ACDA9BE00EE5DD4 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				9A0AE9222ACACB8100ACCAE1 /* XYSwiftVideo.framework */,
+				9A7B44202ACDA9BE00EE5DD4 /* XYSwiftVideo.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -148,7 +148,7 @@
 				607FACCD1AFB9204008FA782 /* Frameworks */,
 				607FACCE1AFB9204008FA782 /* Resources */,
 				73AC2B2AD0E3371752BCC83C /* [CP] Embed Pods Frameworks */,
-				11F41819B79BB2A2EB9331EE /* [CP] Copy Pods Resources */,
+				DC7618865572E2F8529ABD2D /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -189,8 +189,8 @@
 			projectDirPath = "";
 			projectReferences = (
 				{
-					ProductGroup = 9A0AE91E2ACACB8100ACCAE1 /* Products */;
-					ProjectRef = 9A0AE91D2ACACB8100ACCAE1 /* XYSwiftVideo.xcodeproj */;
+					ProductGroup = 9A7B441C2ACDA9BE00EE5DD4 /* Products */;
+					ProjectRef = 9A7B441B2ACDA9BE00EE5DD4 /* XYSwiftVideo.xcodeproj */;
 				},
 			);
 			projectRoot = "";
@@ -201,11 +201,11 @@
 /* End PBXProject section */
 
 /* Begin PBXReferenceProxy section */
-		9A0AE9222ACACB8100ACCAE1 /* XYSwiftVideo.framework */ = {
+		9A7B44202ACDA9BE00EE5DD4 /* XYSwiftVideo.framework */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.framework;
 			path = XYSwiftVideo.framework;
-			remoteRef = 9A0AE9212ACACB8100ACCAE1 /* PBXContainerItemProxy */;
+			remoteRef = 9A7B441F2ACDA9BE00EE5DD4 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 /* End PBXReferenceProxy section */
@@ -225,23 +225,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		11F41819B79BB2A2EB9331EE /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-YXSwiftVideoDemo_Example/Pods-YXSwiftVideoDemo_Example-resources-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Copy Pods Resources";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-YXSwiftVideoDemo_Example/Pods-YXSwiftVideoDemo_Example-resources-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-YXSwiftVideoDemo_Example/Pods-YXSwiftVideoDemo_Example-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		73AC2B2AD0E3371752BCC83C /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -279,6 +262,23 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DC7618865572E2F8529ABD2D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-YXSwiftVideoDemo_Example/Pods-YXSwiftVideoDemo_Example-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-YXSwiftVideoDemo_Example/Pods-YXSwiftVideoDemo_Example-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-YXSwiftVideoDemo_Example/Pods-YXSwiftVideoDemo_Example-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
