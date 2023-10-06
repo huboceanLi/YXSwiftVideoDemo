@@ -11,7 +11,7 @@ import XYSwiftVideo
 import HYMedia
 
 @UIApplicationMain
-class AppDelegate: UIResponder, UIApplicationDelegate {
+class AppDelegate: UIResponder, UIApplicationDelegate,YXTypeManagerDelegate {
 
     var window: UIWindow?
 
@@ -19,6 +19,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
         
+        YXTypeManager.shareInstance().delegate = self
+
         self.window = UIWindow.init(frame: UIScreen.main.bounds)
         self.window?.backgroundColor = UIColor.white
         
@@ -27,9 +29,19 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         self.window?.rootViewController = nav
         self.window?.makeKeyAndVisible()
         
+
+        let ad = TestAD()
+        
+        
         return true
     }
 
+    func showAd(with type: FromWayType) {
+        
+        print("展示广告---结束状态")
+        YXTypeManager.shareInstance().showAd(withResult: true)
+    }
+    
     func application(_ application: UIApplication, supportedInterfaceOrientationsFor window: UIWindow?) -> UIInterfaceOrientationMask {
             // 在这里指定支持的界面方向
         
