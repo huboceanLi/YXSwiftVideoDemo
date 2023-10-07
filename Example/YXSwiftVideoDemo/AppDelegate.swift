@@ -28,11 +28,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate,YXTypeManagerDelegate {
         let nav = UINavigationController(rootViewController: vc)
         self.window?.rootViewController = nav
         self.window?.makeKeyAndVisible()
-        
 
-        let ad = TestAD()
-        
-        
         return true
     }
 
